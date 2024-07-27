@@ -1,2 +1,2 @@
-require("config.keymaps")
-require("config.lazy")
+require("roo.core")
+require("roo.lazy")
