@@ -1,3 +1,1 @@
-return {
-  "jeffkreeftmeijer/neovim-sensible"
-}
+return {}
