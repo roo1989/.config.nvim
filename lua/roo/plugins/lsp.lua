@@ -43,6 +43,7 @@ return {
 				"pyright",
 				"ruff_lsp",
 				"lua_ls",
+				"bashls",
 			},
 			handlers = {
 				function (server_name)
