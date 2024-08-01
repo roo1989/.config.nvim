@@ -35,7 +35,7 @@ return {
 					name = "Python: Django ELKO",
 					type = "python",
 					request = "launch",
-					program = "${workspaceFolder}/src/python/elko/manage.py",
+					program = "${workspaceFolder}/elko/manage.py",
 					args = {
 						"runserver",
 					},
