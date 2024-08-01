@@ -3,7 +3,7 @@ return {
 		"mfussenegger/nvim-dap-python",
 		config = function()
 			local dap_python = require("dap-python")
-			dap_python.setup("/Users/emil/.pyenv/versions/nvim-dap/bin/python")
+			dap_python.setup("/Users/ragnar/.pyenv/versions/3.10.10/bin/python")
 			dap_python.test_runner = "pytest"
 
 			vim.keymap.set("n", "<leader>dn", dap_python.test_method, {})
